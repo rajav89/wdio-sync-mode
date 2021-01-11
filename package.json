@@ -1,0 +1,32 @@
+{
+  "name": "wdio-sync-mode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajav89/wdio-sync-mode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajav89/wdio-sync-mode/issues"
+  },
+  "homepage": "https://github.com/rajav89/wdio-sync-mode#readme",
+  "dependencies": {
+    "webdriverio": "^6.11.3"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^6.11.3",
+    "@wdio/junit-reporter": "^6.11.0",
+    "@wdio/local-runner": "^6.11.3",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chromedriver": "^87.0.5",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
